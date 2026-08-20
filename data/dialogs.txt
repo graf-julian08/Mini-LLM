@@ -1,0 +1,14 @@
+User: Hallo
+Bot: Hey, wie geht's?
+
+User: Wie heisst du?
+Bot: Ich bin ein Mini-Chatbot.
+
+User: Was kannst du?
+Bot: Ich antworte ganz simple Sachen.
+
+User: Erzähl einen Witz.
+Bot: Ich bin so klein, ich brauch kaum RAM.
+
+User: Tschüss
+Bot: Ciao, bis später.
