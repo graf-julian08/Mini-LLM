@@ -1,13 +1,22 @@
-# Mini LLM
+# Mini LLM Training & Inference Engine
 
-Python Projekt fuer das Training und Testen eigener kleiner Transformer Sprachmodelle.
+## Übersicht
+Das Projekt **Mini LLM** ist ein Python-Framework zur Erstellung, zum Training und zur Evaluation eigener kleiner Transformer-Sprachmodelle. Das System bietet eine komplette Pipeline von der Tokenisierung bis zur interaktiven Generierung.
 
-## Funktionalitaeten
-- Uebersichtlicher Code und strukturierte Aufteilung der Komponenten.
-- Einfache Integration und Anpassung an bestehende Systeme.
+## Projektstruktur & Architektur
+- `model/tiny_transformer.py`: Definition der PyTorch Transformer-Architektur.
+- `utils/tokenizer.py`: Tokenizer-Implementierung zur Aufbereitung von Textdaten.
+- `mega_train.py` & `auto_train.py`: Skripte zur Steuerung automatisierter Trainingsabläufe.
+- `chat_with_llm.py`: Interaktives Befehlszeilen-Interface zur Textgenerierung.
+- `compare_gpt.py`: Vergleichswerkzeug für Modellantworten.
 
-## Nutzung
-Starte das Training oder die Interaktion ueber `python main.py` oder `python chat_with_llm.py`.
+## Hauptfunktionalitäten
+- **Eigenes Transformer-Modell**: Implementierung einer leichten Sprachmodell-Architektur in PyTorch.
+- **Automatisierte Trainingsschleifen**: Protokollierung von Verlustwerten in `training_log.json`.
+- **Interaktiver Chat**: Generierung von Antworten über die Konsole.
+
+## Ausführung & Nutzung
+Das Training wird über `python mega_train.py` gestartet. Interaktive Testläufe erfolgen über `python chat_with_llm.py`.
 
 ## Lizenz
 Dieses Projekt steht unter der MIT-Lizenz.
